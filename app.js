@@ -18,7 +18,7 @@ const cors = require('cors');
 const app = express();
 
 mongoose
-  .connect(`mongodb+srv://root:${process.env.DB_PASS}@animalsforlife-goij5.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`,
+  .connect(`mongodb+srv://root:root@animalsforlife-goij5.mongodb.net/right-for-life?retryWrites=true&w=majority`,
     dbOptions)
   .catch(err => {
     console.log(err);
