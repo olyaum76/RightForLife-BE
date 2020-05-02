@@ -12,4 +12,4 @@ module.exports.dbName = dbName;
 module.exports.serverPort = 4000;
 // module.exports.frontURL = 'http://localhost:5000';
 module.exports.dbOptions = dbOptions;
-module.exports.connectionURI = `mongodb+srv://root:root@animalsforlife-goij5.mongodb.net/${dbName}?retryWrites=true&w=majority`;
+module.exports.connectionURI = `mongodb+srv://admin:FHeyF73JUIJgf^@rightforlife-2awmt.mongodb.net/test?retryWrites=true&w=majority`;
